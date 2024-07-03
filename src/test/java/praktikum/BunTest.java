@@ -38,11 +38,11 @@ public class BunTest {
     @Test
     @DisplayName("Check get name bun")
     public void checkGetNameBunTest() {
-        Assert.assertEquals(bun.getName(),name);
+        Assert.assertEquals("Неверное имя булочки",name, bun.getName());   //Следование элементов исправлено
     }
 
     @Test
     public void checkGetPriceBunTest() {
-        Assert.assertEquals(bun.getPrice(),price,3.4f);
+        Assert.assertEquals("Неправильная цена булочки",price, bun.getPrice(),3.4f);
     }
 }

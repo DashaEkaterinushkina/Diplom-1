@@ -1,0 +1,7 @@
+target/
+*.iws
+*.iml
+.build
+.idea
+.allure
+.allure-2.27.0
